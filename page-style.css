@@ -1,0 +1,16 @@
+.copyR-div img{
+    width:100px;
+    height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .my-div {
+    font-size: 50px;
+  }
+  .copyR-div img{
+    width: 300px;
+  }
+  .copyR-div p{
+    font-size: 50px;
+  }
+}
