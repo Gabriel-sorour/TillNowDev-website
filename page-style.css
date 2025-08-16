@@ -24,6 +24,11 @@
   padding-top: 30px;
 }
 
+a, img {
+  -webkit-tap-highlight-color: transparent; /* removes the blue square */
+  outline: none;
+}
+
 
 @media (max-width: 1000px) {
   .my-div {
@@ -49,5 +54,12 @@
   .div-pic img {
     width: 400px;
   }
+
+  
+.lin-img {
+  width: 60px;
+  padding-left: 60px;
+  padding-top: 60px;
+}
 
 }
