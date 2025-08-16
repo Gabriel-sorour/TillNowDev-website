@@ -3,14 +3,39 @@
     height: 100%;
 }
 
+.div-pic{
+    display: flex;
+    margin: 60px;
+}
+.div-pic div{
+    background-color: rgba(238, 222, 1, 0.055);
+    width: 600px; margin-right: 40px;
+}
+
+.div-pic img{
+    width: 500px;
+}
+
 @media (max-width: 1000px) {
   .my-div {
-    font-size: 200px;
+    font-size: 50px;
   }
   .copyR-div img{
     width: 400px;
   }
   .copyR-div p{
-    font-size: 200px;
+    font-size: 50px;
   }
+
+
+
+.div-pic div{
+    background-color: rgba(238, 222, 1, 0.055);
+    width: 300px; margin-right: 40px;
+}
+
+.div-pic img{
+    width: 200px;
+}
+
 }
