@@ -1,96 +1,16 @@
-body {
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/* Main layout */
-.main-container {
-    display: flex;
-    margin: 60px;
-}
-
-.image-container {
-    background-color: rgba(238, 222, 1, 0.055);
-    width: 600px;
-    margin-right: 40px;
-}
-
-.profile-img {
-    width: 500px;
-    height: auto;
-}
-
-.logo-img {
-    width: auto;
-    height: auto;
-}
-
-/* About section */
-.about-section {
-    margin-left: 60px;
-}
-
-.about-title {
-    font-weight: bold;
-}
-
-.highlight-text {
-    font-style: italic;
-    color: yellow;
-}
-
-/* Footer */
-.footer {
-    padding-left: 59px;
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
-}
-
-.footer-logo {
-    width: 100px;
+.copyR-div img{
+    width:100px;
     height: 100%;
 }
 
-/* Responsive styles */
 @media (max-width: 1000px) {
-    .main-container {
-        flex-direction: column;
-        align-items: center;
-        margin: 20px;
-    }
-
-    .image-container {
-        width: 100%;
-        margin-right: 0;
-    }
-
-    .profile-img {
-        width: 100%;
-    }
-
-    .about-section {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .about-section p {
-        font-size: 20px;
-    }
-
-    .about-title {
-        font-size: 26px;
-    }
-
-    .footer {
-        padding-left: 0;
-        justify-content: center;
-    }
-
-    .footer-logo {
-        width: 300px;
-    }
+  .my-div {
+    font-size: 200px;
+  }
+  .copyR-div img{
+    width: 400px;
+  }
+  .copyR-div p{
+    font-size: 200px;
+  }
 }
