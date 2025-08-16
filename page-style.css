@@ -5,12 +5,12 @@
 
 @media (max-width: 1000px) {
   .my-div {
-    font-size: 50px;
+    font-size: 200px;
   }
   .copyR-div img{
-    width: 300px;
+    width: 400px;
   }
   .copyR-div p{
-    font-size: 50px;
+    font-size: 200px;
   }
 }
