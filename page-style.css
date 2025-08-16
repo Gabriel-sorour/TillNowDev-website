@@ -1,41 +1,53 @@
-.copyR-div img{
-    width:100px;
-    height: 100%;
+.copyR-div img {
+  width: 100px;
+  height: 100%;
 }
 
-.div-pic{
-    display: flex;
-    margin: 60px;
-}
-.div-pic div{
-    background-color: rgba(238, 222, 1, 0.055);
-    width: 600px; margin-right: 40px;
+.div-pic {
+  display: flex;
+  margin: 60px;
 }
 
-.div-pic img{
-    width: 500px;
+.div-pic div {
+  background-color: rgba(238, 222, 1, 0.055);
+  width: 500px;
+  margin-right: 40px;
 }
+
+.div-pic img {
+  width: 400px;
+}
+
+.lin-img {
+  width: 30px;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
 
 @media (max-width: 1000px) {
   .my-div {
-    font-size: 20px;
+    font-size: 30px;
   }
-  .copyR-div img{
+
+  .copyR-div img {
     width: 400px;
   }
-  .copyR-div p{
-    font-size: 50px;
+
+  .copyR-div p {
+    font-size: 30px;
   }
 
 
 
-.div-pic div{
+  .div-pic div {
     background-color: rgba(238, 222, 1, 0.055);
-    width: 550px; margin-right: 40px;
-}
-
-.div-pic img{
     width: 500px;
-}
+    margin-right: 40px;
+  }
+
+  .div-pic img {
+    width: 400px;
+  }
 
 }
