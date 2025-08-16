@@ -18,24 +18,24 @@
 
 @media (max-width: 1000px) {
   .my-div {
-    font-size: 30px;
+    font-size: 20px;
   }
   .copyR-div img{
     width: 400px;
   }
   .copyR-div p{
-    font-size: 30px;
+    font-size: 50px;
   }
 
 
 
 .div-pic div{
     background-color: rgba(238, 222, 1, 0.055);
-    width: 500px; margin-right: 40px;
+    width: 550px; margin-right: 40px;
 }
 
 .div-pic img{
-    width: 400px;
+    width: 500px;
 }
 
 }
